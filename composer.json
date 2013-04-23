@@ -11,7 +11,8 @@
         "monolog/monolog":                           "dev-master",
         "swiftmailer/swiftmailer":                   "dev-master",
         "ircmaxell/password-compat":                 "dev-master",
-        "jtreminio/test-extensions":                 "dev-master"
+        "jtreminio/test-extensions":                 "dev-master",
+        "jtreminio/zimple":                          "dev-master"
     },
     "minimum-stability": "dev",
     "autoload": {

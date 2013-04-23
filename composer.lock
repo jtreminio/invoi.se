@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "1ce95cd8c5a254b3f22ba4bb9bf7c630",
+    "hash": "3f6d6122e8db8f7963e311954e5e0a31",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -557,6 +557,63 @@
                 "testing"
             ],
             "time": "2013-04-09 20:32:11"
+        },
+        {
+            "name": "jtreminio/zimple",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jtreminio/Zimple.git",
+                "reference": "6e24a6f7877f3da97ceaff6052bfb8158d84e3bf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jtreminio/Zimple/zipball/6e24a6f7877f3da97ceaff6052bfb8158d84e3bf",
+                "reference": "6e24a6f7877f3da97ceaff6052bfb8158d84e3bf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "pimple/pimple": "1.0.*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "jtreminio\\Zimple": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Juan Treminio",
+                    "email": "jtreminio@gmail.com",
+                    "homepage": "http://jtreminio.com"
+                }
+            ],
+            "description": "A wrapper for Pimple container that adds several useful features to make it easier to manage your code!",
+            "homepage": "https://github.com/jtreminio/Zimple",
+            "keywords": [
+                "container",
+                "dependency injection",
+                "dic",
+                "inversion of control",
+                "ioc",
+                "pimple",
+                "testing",
+                "unit testing"
+            ],
+            "time": "2013-04-23 18:57:47"
         },
         {
             "name": "monolog/monolog",
@@ -1882,7 +1939,8 @@
         "monolog/monolog": 20,
         "swiftmailer/swiftmailer": 20,
         "ircmaxell/password-compat": 20,
-        "jtreminio/test-extensions": 20
+        "jtreminio/test-extensions": 20,
+        "jtreminio/zimple": 20
     },
     "platform": [
 
