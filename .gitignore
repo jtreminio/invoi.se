@@ -1,0 +1,13 @@
+.idea
+cache
+tests
+tests/codeCoverage
+log
+twig.cache
+src/app.prod.php
+src/app.dev.php
+web/assets/uploads/
+vendor
+
+web/.htaccess
+web/error_log

@@ -1,0 +1,22 @@
+{
+    "require": {
+        "silex/silex":               "1.0.*",
+        "twig/twig":                 "1.*",
+        "symfony/security":          "2.2.*",
+        "symfony/twig-bridge":       "2.2.*",
+        "symfony/validator":         "2.2.*",
+        "phpunit/phpunit":           "3.7.*",
+        "doctrine/dbal":             "2.3.*",
+        "monolog/monolog":           "dev-master",
+        "swiftmailer/swiftmailer":   "dev-master",
+        "ircmaxell/password-compat": "dev-master",
+        "jtreminio/test-extensions": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "Invoise":        "src/",
+            "Invoise\\Tests": "tests/"
+        }
+    }
+}
