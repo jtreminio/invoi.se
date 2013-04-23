@@ -3,6 +3,7 @@ cache
 tests
 tests/codeCoverage
 log
+phpunit.xml
 twig.cache
 src/app.prod.php
 src/app.dev.php
