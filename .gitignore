@@ -1,14 +1,10 @@
 .idea
 cache
-tests
-tests/codeCoverage
+config/prod.yml
 log
+tests/codeCoverage
 phpunit.xml
 twig.cache
-src/app.prod.php
-src/app.dev.php
-web/assets/uploads/
 vendor
 
-web/.htaccess
 web/error_log
