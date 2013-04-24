@@ -12,7 +12,8 @@
         "swiftmailer/swiftmailer":                   "dev-master",
         "ircmaxell/password-compat":                 "dev-master",
         "jtreminio/test-extensions":                 "dev-master",
-        "jtreminio/zimple":                          "dev-master"
+        "jtreminio/zimple":                          "dev-master",
+        "igorw/config-service-provider":             "dev-master"
     },
     "minimum-stability": "dev",
     "autoload": {
